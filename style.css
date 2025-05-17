@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(images/vector-realistic-isolated-neon-sign-260nw-1181047573.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "poppoins", sans-serif;
+}
+p {
+  color: aliceblue;
+}
+
+.container {
+  max-width: 850px;
+  width: 120%;
+  height: 120%;
+  box-shadow: 0 0 5px 1px rgba(238, 229, 229, 0.5);
+  padding: 2rem;
+  color: 000;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 0.6s ease-in;
+}
+
+.container_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .btn {
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  outline: none;
+  font-size: 0.9rem;
+  background-color: rgb(36, 117, 223);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: white;
+  font-family: inherit;
+}
+
+.container .btn:focus {
+  transform: scale(0.98);
+  outline: none;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: aliceblue;
+}
+
+.hide_num {
+  text-align: center;
+  font-size: 3rem;
+  background-color: rgb(36, 117, 223);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 25%;
+  margin: 0 auto;
+  color: white;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.number_data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.number_data input {
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.2rem;
+  border: 1px solid white;
+}
+
+.number_data button {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.content {
+    font-size: 1.3rem;
+}
